@@ -1,0 +1,3 @@
+noPerms: '&r&cYou do not have the necessary permissions to do this!'
+# Placeholders for this message: {x}, {y}, {z} - Pretty self explanatory.
+randomTP: '&r&6You have randomly teleported to X:&a{x}&6, Y:&a{y}&6, Z:&a{z}&6!'

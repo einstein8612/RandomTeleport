@@ -1,0 +1,10 @@
+name: RandomTP
+author: ThePerkyTurkey
+main: net.pillagecraft.randomtp.RandomTP
+version: 1.0
+
+commands:
+  randomteleport:
+    usage: /rtp
+    description: Teleports the user to a random location within the world
+    aliases: [randomtp, rtp, wild]

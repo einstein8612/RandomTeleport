@@ -1,3 +1,18 @@
-noPerms: '&r&cYou do not have the necessary permissions to do this!'
+noPerms: '&6&lRandom&f&lTP &8> &r&cYou do not have the necessary permissions to do this!'
+choosingLoc: '&6&lRandom&f&lTP &8> &r&6A &flocation is being generated.'
 # Placeholders for this message: {x}, {y}, {z} - Pretty self explanatory.
-randomTP: '&r&6You have randomly teleported to X:&a{x}&6, Y:&a{y}&6, Z:&a{z}&6!'
+randomTP: '&6&lRandom&f&lTP &8> &r&6Y&fou have randomly teleported to X:&6{x}&r, Y:&6{y}&r, Z:&6{z}&r!'
+timeLeft: "&6&lRandom&f&lTP &8> &r&6Y&fou can't RTP yet! Please wait for &6{MINUTES} &fminutes and &6{SECONDS}&r seconds."
+
+# Cooldown in milliseconds. Set to 0 to disable
+cooldown: 300
+
+Border:
+# Valid choices: WORLDBORDER & CONFIG. Default: BORDER
+# WORLDBORDER: Use the borders of the world the command is executed in.
+# CONFIG: Use the borders that are defined here.
+   type: "WORLDBORDER"
+   xMax: 10000.0
+   xMin: -10000.0
+   zMax: 10000.0
+   zMin: -10000.0

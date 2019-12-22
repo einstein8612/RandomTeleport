@@ -25,15 +25,18 @@ public class ConfigManager {
         }
     }
 
-    public String getMessage(String loc) {
-        return ChatColor.translateAlternateColorCodes('&', config.getString(loc));
+    public String getMessage(String entry) {
+        return ChatColor.translateAlternateColorCodes('&', config.getString(entry));
+    }
+    
+    public FileConfiguration getConfig() {
+    	return this.config;
     }
 
     private void loadConfigs() {
         this.configFile = new File(dataFolder, "config.yml");
         if (!configFile.exists())
             rtp.saveResource("config.yml", true);
-        configFile = new File(dataFolder.getPath() + "/config.yml");
         this.config = YamlConfiguration.loadConfiguration(configFile);
     }
 

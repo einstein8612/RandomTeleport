@@ -4,7 +4,8 @@ choosingLoc: '&6&lRandom&f&lTP &8> &r&6A &flocation is being generated.'
 randomTP: '&6&lRandom&f&lTP &8> &r&6Y&fou have randomly teleported to X:&6{x}&r, Y:&6{y}&r, Z:&6{z}&r!'
 timeLeft: "&6&lRandom&f&lTP &8> &r&6Y&fou can't RTP yet! Please wait for &6{MINUTES} &fminutes and &6{SECONDS}&r seconds."
 
-# Cooldown in milliseconds. Set to 0 to disable
+# Cooldown in seconds. Set to 0 to disable
+# ONLY USE WHOLE NUMBERS
 cooldown: 300
 
 Border:
